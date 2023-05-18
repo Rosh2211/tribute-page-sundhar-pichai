@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Asap", sans-serif;
+  background: linear-gradient(to bottom, #f1f1f1, #eeeeee);
+  margin: 10px 5px;
+}
+header {
+  line-height: 30px;
+  background: rgba(255, 255, 255, 0.274);
+  margin: 10px 35px;
+  border-radius: 4px;
+}
+header h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 35px;
+}
+header p {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+.navbar {
+  text-align: center;
+  margin: 10px auto;
+}
+.navbar li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-right: 15px;
+  margin-left: 5px;
+  transition: 0.3s ease;
+}
+.navbar li a:hover {
+  color: purple;
+}
+#img-div {
+  padding: 10px;
+  margin: 0;
+  background-color: white;
+  margin: 0px 35px;
+  border-radius: 4px;
+}
+#img-div img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 100%;
+}
+#img-caption {
+  text-align: center;
+  margin-top: 5px;
+}
+#about {
+  width: 95%;
+  margin: 25px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: -3px 3px 3px grey;
+}
+#about p {
+  line-height: 25px;
+  text-indent: 5em;
+  padding-top: 10px;
+}
+#education {
+  width: 95%;
+  margin: 25px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: -3px 3px 3px grey;
+}
+#education p {
+  line-height: 25px;
+  text-indent: 5em;
+  padding-top: 10px;
+}
+#career {
+  width: 95%;
+  margin: 25px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: -3px 3px 3px grey;
+}
+#career p {
+  line-height: 25px;
+  text-indent: 5em;
+  padding-top: 10px;
+}
+footer {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
